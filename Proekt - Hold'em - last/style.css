@@ -1,0 +1,97 @@
+
+.players img {
+    width:30%;
+}
+.cardbox img {
+    width: 12%;
+}
+body {
+    background-color: rgb(72, 201, 136);
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.info button {
+    background-color: rgb(143, 129, 129);
+}
+.texas {
+    font-size: 100px;
+    justify-content: center;
+    display: flex;
+    color: rgb(112, 10, 10);
+}
+.texasdiv {
+    display: flex;
+    justify-content: center;
+}
+.cardbox {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    align-items: center;
+    background-color: green;
+    position: fixed;
+    padding: 10px 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+.chipsinfo {
+    display: flex;
+}
+.winnerinfo {
+    display: flex;
+    flex-direction: column;
+}
+.playersnumber, .playerschips {
+    width: 130px;
+    height: 40px;
+}
+.totalbets {
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 230px;
+}
+.players input {
+    width: 50px;
+    height:25px;
+    background-color: rgb(143, 129, 129);
+}
+.players p {
+    color: white;
+}
+.players button {
+    background-color: rgb(143, 129, 129);
+}
+.winnertext, .winnerid {
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+@media screen and (max-width: 750px) {
+    .cardbox img {
+        width: 18%;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .players {
+        margin-top: 380px;
+    }
+  }
+
+

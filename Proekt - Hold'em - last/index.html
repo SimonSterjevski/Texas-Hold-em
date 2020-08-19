@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Texas Hold'em</title>
+</head>
+<body>
+    <div class="container">
+
+    <div class="info"> 
+        <input class="playersnumber" placeholder="Number of players" type="number" max="9" min ="2">
+        <input class="playerschips" placeholder="Chips amount" type="number" max="1000000" min = "500" step="10">
+        <button class="btnstart"> Start game </button>
+    </div>
+    <div class="texasdiv">
+        <p class="texas">
+            TEXAS HOLD'EM
+        </p>
+    </div>
+    <div class="cardbox">
+        <div class="winnerinfo">
+            <div>
+                <p class="timer"> </p>
+                <button class="addplayer"> Add Player </button>
+            </div>
+            <div>
+                <p class="winnertext">  </p>
+            </div> 
+        </div>
+        <div class="cards">
+           
+        </div>
+        <div class="chipsinfo">
+            <p class="totalbets"> </p>
+        </div>
+    </div>  
+    <div class="players">
+        
+    </div>
+   
+
+</div>
+    <script src="script.js"></script>
+    <!-- <script src="scriptRefactorCalcCards.js"></script> -->
+</body>
+</html>
